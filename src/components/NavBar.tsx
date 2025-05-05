@@ -17,13 +17,6 @@ const NavBar: React.FC = () => {
           <a href="#realizacje" className="hover:text-pawbud-yellow transition duration-300">Realizacje</a>
           <a href="#kontakt" className="hover:text-pawbud-yellow transition duration-300">Kontakt</a>
         </div>
-        
-        <a 
-          href="#kontakt" 
-          className="hidden sm:inline-block bg-pawbud-yellow text-pawbud-darkBlue px-4 py-2 rounded-lg font-medium hover:bg-pawbud-lightYellow transition duration-300"
-        >
-          Darmowa wycena
-        </a>
       </div>
     </nav>
   );

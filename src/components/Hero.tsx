@@ -5,39 +5,32 @@ import { Building2, ArrowRight } from 'lucide-react';
 const Hero: React.FC = () => {
   return (
     <div className="relative bg-tools">
-      <div className="bg-gradient-to-b from-pawbud-blue to-pawbud-darkBlue py-20 md:py-28 px-6 sm:px-10 min-h-[500px] flex items-center relative overflow-hidden">
+      <div className="bg-gradient-to-b from-pawbud-blue to-pawbud-darkBlue py-16 md:py-24 px-6 sm:px-10 min-h-[450px] flex items-center relative overflow-hidden">
         <div className="container mx-auto z-10">
           <div className="max-w-3xl">
             <div className="flex items-center gap-3 mb-4">
               <Building2 className="text-pawbud-yellow h-8 w-8" />
               <h2 className="text-white font-semibold text-xl">PAWBUD</h2>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 text-shadow leading-tight">
+            <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 text-shadow leading-tight">
               Profesjonalne <span className="text-pawbud-yellow">usługi budowlane</span> w całej Polsce
             </h1>
             <p className="text-white/90 text-lg md:text-xl mb-8 max-w-2xl">
               Oferujemy kompleksowe usługi budowlane od projektowania po realizację i wykończenie. 
               Działamy na terenie całej Polski, gwarantując najwyższą jakość i terminowość.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <a 
-                href="#kontakt" 
-                className="bg-pawbud-yellow text-pawbud-darkBlue px-6 py-3 rounded-lg font-medium hover:bg-pawbud-lightYellow transition duration-300 text-center sm:text-left"
-              >
-                Darmowa wycena
-              </a>
+            <div className="flex gap-4">
               <a 
                 href="#uslugi" 
-                className="group flex items-center justify-center sm:justify-start gap-2 bg-transparent border-2 border-white/40 text-white px-6 py-3 rounded-lg font-medium hover:border-pawbud-yellow/60 transition duration-300"
+                className="group flex items-center justify-center sm:justify-start gap-2 bg-pawbud-yellow text-pawbud-darkBlue px-6 py-3 rounded-lg font-medium hover:bg-pawbud-lightYellow transition duration-300"
               >
-                <span>Poznaj nasze usługi</span>
+                <span>Nasze usługi</span>
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </a>
             </div>
           </div>
         </div>
 
-        {/* Semi-transparent construction tools illustrations */}
         <div className="absolute top-20 right-10 opacity-10 hidden lg:block">
           <svg width="200" height="200" viewBox="0 0 100 100">
             <path d="M30,10 L70,10 L70,90 L30,90 Z" fill="none" stroke="#FFD700" strokeWidth="2"/>

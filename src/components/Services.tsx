@@ -33,27 +33,27 @@ const Services: React.FC = () => {
     {
       icon: <Hammer className="h-6 w-6 text-pawbud-blue" />,
       title: "Pokrycia dachowe",
-      description: "Profesjonalne wykonanie różnego rodzaju pokryć dachowych z wykorzystaniem najwyższej jakości materiałów i nowoczesnych technologii."
+      description: "Profesjonalne wykonanie różnego rodzaju pokryć dachowych z wykorzystaniem najwyższej jakości materiałów."
     },
     {
       icon: <Paintbrush className="h-6 w-6 text-pawbud-blue" />,
       title: "Tynkowanie i malowanie",
-      description: "Usługi tynkarskie i malarskie wykonywane z dbałością o detale. Oferujemy szeroki wybór wykończeń i efektów dekoracyjnych."
+      description: "Usługi tynkarskie i malarskie wykonywane z dbałością o detale. Oferujemy szeroki wybór wykończeń."
     },
     {
       icon: <Wrench className="h-6 w-6 text-pawbud-blue" />,
       title: "Roboty instalacyjne i wykończeniowe",
-      description: "Kompleksowe wykonanie instalacji oraz prac wykończeniowych we wnętrzach. Dbamy o funkcjonalność i estetykę każdego elementu."
+      description: "Kompleksowe wykonanie instalacji oraz prac wykończeniowych we wnętrzach."
     }
   ];
 
   return (
-    <section id="uslugi" className="py-20 px-6 sm:px-10 gradient-blue-yellow">
+    <section id="uslugi" className="py-16 px-6 sm:px-10 gradient-blue-yellow">
       <div className="container mx-auto">
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-pawbud-blue mb-4">Nasze Usługi</h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Oferujemy szeroki zakres profesjonalnych usług budowlanych z gwarancją najwyższej jakości i terminowości.
+            Oferujemy szeroki zakres profesjonalnych usług budowlanych.
           </p>
         </div>
         

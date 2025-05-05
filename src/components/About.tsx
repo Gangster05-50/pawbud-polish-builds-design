@@ -4,7 +4,7 @@ import { Building } from 'lucide-react';
 
 const About: React.FC = () => {
   return (
-    <section id="o-nas" className="py-20 px-6 sm:px-10 bg-white">
+    <section id="o-nas" className="py-16 px-6 sm:px-10 bg-white">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="order-2 lg:order-1">
@@ -18,8 +18,7 @@ const About: React.FC = () => {
             
             <p className="text-gray-700 mb-6">
               Nasze usługi charakteryzują się najwyższą jakością wykonania, terminowością oraz indywidualnym 
-              podejściem do każdego klienta. Wykorzystujemy sprawdzone materiały i nowoczesne technologie, 
-              gwarantując trwałość i estetykę każdej realizacji.
+              podejściem do każdego klienta.
             </p>
             
             <div className="flex items-center pt-4">
@@ -35,23 +34,23 @@ const About: React.FC = () => {
           
           <div className="order-1 lg:order-2 flex justify-center">
             <div className="relative">
-              <div className="w-64 h-64 md:w-80 md:h-80 bg-pawbud-blue rounded-full absolute -top-6 -left-6 opacity-10"></div>
-              <div className="w-64 h-64 md:w-80 md:h-80 bg-pawbud-yellow rounded-full absolute -bottom-6 -right-6 opacity-10"></div>
+              <div className="w-64 h-64 md:w-72 md:h-72 bg-pawbud-blue rounded-full absolute -top-4 -left-4 opacity-10"></div>
+              <div className="w-64 h-64 md:w-72 md:h-72 bg-pawbud-yellow rounded-full absolute -bottom-4 -right-4 opacity-10"></div>
               <div className="bg-gradient-to-br from-pawbud-blue to-pawbud-darkBlue rounded-2xl p-1 relative z-10">
-                <div className="bg-white p-8 rounded-xl flex flex-col items-center">
-                  <Building className="h-16 w-16 text-pawbud-yellow mb-6" />
+                <div className="bg-white p-6 rounded-xl flex flex-col items-center">
+                  <Building className="h-14 w-14 text-pawbud-yellow mb-4" />
                   <h3 className="text-2xl font-bold mb-2 text-pawbud-blue">PAWBUD</h3>
                   <p className="text-center text-gray-600 mb-4">
-                    Stawiamy na jakość, terminowość i zadowolenie klienta
+                    Jakość, terminowość i zadowolenie klienta
                   </p>
                   <div className="grid grid-cols-2 gap-4 w-full">
-                    <div className="bg-gray-50 p-4 rounded-lg text-center">
-                      <div className="text-3xl font-bold text-pawbud-blue">10+</div>
+                    <div className="bg-gray-50 p-3 rounded-lg text-center">
+                      <div className="text-2xl font-bold text-pawbud-blue">10+</div>
                       <div className="text-sm text-gray-500">Lat doświadczenia</div>
                     </div>
-                    <div className="bg-gray-50 p-4 rounded-lg text-center">
-                      <div className="text-3xl font-bold text-pawbud-blue">250+</div>
-                      <div className="text-sm text-gray-500">Ukończonych projektów</div>
+                    <div className="bg-gray-50 p-3 rounded-lg text-center">
+                      <div className="text-2xl font-bold text-pawbud-blue">250+</div>
+                      <div className="text-sm text-gray-500">Projektów</div>
                     </div>
                   </div>
                 </div>
