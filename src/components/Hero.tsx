@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Building2, ArrowRight } from 'lucide-react';
+import { Building2 } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
@@ -19,15 +19,6 @@ const Hero: React.FC = () => {
               Oferujemy kompleksowe usługi budowlane od projektowania po realizację i wykończenie. 
               Działamy na terenie całej Polski, gwarantując najwyższą jakość i terminowość.
             </p>
-            <div className="flex gap-4">
-              <a 
-                href="#uslugi" 
-                className="group flex items-center justify-center sm:justify-start gap-2 bg-pawbud-yellow text-pawbud-darkBlue px-6 py-3 rounded-lg font-medium hover:bg-pawbud-lightYellow transition duration-300"
-              >
-                <span>Nasze usługi</span>
-                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-              </a>
-            </div>
           </div>
         </div>
 

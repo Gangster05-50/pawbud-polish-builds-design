@@ -25,7 +25,6 @@ const Footer: React.FC = () => {
               <li><a href="#" className="text-white/80 hover:text-pawbud-yellow transition duration-300">Strona główna</a></li>
               <li><a href="#uslugi" className="text-white/80 hover:text-pawbud-yellow transition duration-300">Usługi</a></li>
               <li><a href="#o-nas" className="text-white/80 hover:text-pawbud-yellow transition duration-300">O nas</a></li>
-              <li><a href="#realizacje" className="text-white/80 hover:text-pawbud-yellow transition duration-300">Realizacje</a></li>
               <li><a href="#kontakt" className="text-white/80 hover:text-pawbud-yellow transition duration-300">Kontakt</a></li>
             </ul>
           </div>
