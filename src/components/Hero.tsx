@@ -41,7 +41,7 @@ const Hero: React.FC = () => {
           <div className="max-w-3xl">
             <div className="flex items-center gap-3 mb-4">
               <Building2 className="text-pawbud-yellow h-8 w-8" />
-              <h2 className="text-white font-semibold text-xl">PAWBUD</h2>
+              <h2 className="text-white font-semibold text-xl">ELEKTROGO</h2>
             </div>
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 text-shadow leading-tight">
               Profesjonalne <span className="text-pawbud-yellow">usługi budowlane</span> w całej Polsce

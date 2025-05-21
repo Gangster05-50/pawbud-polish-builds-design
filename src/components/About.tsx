@@ -11,7 +11,7 @@ const About: React.FC = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-pawbud-blue mb-6">O Nas</h2>
             
             <p className="text-gray-700 mb-6">
-              PAWBUD to firma budowlana z bogatym doświadczeniem w branży budowlanej na terenie Polski. 
+              ELEKTROGO to firma budowlana z bogatym doświadczeniem w branży budowlanej na terenie Polski. 
               Specjalizujemy się w kompleksowej realizacji projektów budowlanych, 
               pokryciach dachowych, tynkowaniu, malowaniu oraz robotach instalacyjnych i wykończeniowych.
             </p>
@@ -26,8 +26,8 @@ const About: React.FC = () => {
                 <Building className="h-10 w-10 text-pawbud-yellow" />
               </div>
               <div>
-                <h3 className="text-xl font-semibold">Paweł Kiedrowski</h3>
-                <p className="text-gray-600">Właściciel firmy PAWBUD</p>
+                <h3 className="text-xl font-semibold">SEBASTIAN ZIELIŃSKI</h3>
+                <p className="text-gray-600">Właściciel firmy ELEKTROGO</p>
               </div>
             </div>
           </div>
@@ -39,7 +39,7 @@ const About: React.FC = () => {
               <div className="bg-gradient-to-br from-pawbud-blue to-pawbud-darkBlue rounded-2xl p-1 relative z-10">
                 <div className="bg-white p-6 rounded-xl flex flex-col items-center">
                   <Building className="h-14 w-14 text-pawbud-yellow mb-4" />
-                  <h3 className="text-2xl font-bold mb-2 text-pawbud-blue">PAWBUD</h3>
+                  <h3 className="text-2xl font-bold mb-2 text-pawbud-blue">ELEKTROGO</h3>
                   <p className="text-center text-gray-600">
                     Jakość, terminowość i zadowolenie klienta
                   </p>

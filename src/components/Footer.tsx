@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
           <div>
             <div className="flex items-center space-x-3 mb-4">
               <Building className="text-pawbud-yellow h-8 w-8" />
-              <span className="font-bold text-white text-2xl">PAWBUD</span>
+              <span className="font-bold text-white text-2xl">ELEKTROGO</span>
             </div>
             <p className="text-white/80 mb-4">
               Profesjonalne usługi budowlane na terenie całej Polski.
@@ -32,15 +32,15 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4 text-pawbud-yellow">Kontakt</h3>
             <ul className="space-y-2 text-white/80">
-              <li>Paweł Kiedrowski</li>
-              <li>Email: <a href="mailto:trevorkaur@op.pl" className="hover:text-pawbud-yellow transition duration-300">trevorkaur@op.pl</a></li>
+              <li>SEBASTIAN ZIELIŃSKI</li>
+              <li>Email: <a href="mailto:mbjpabwjddhtqatf@outlook.com" className="hover:text-pawbud-yellow transition duration-300">mbjpabwjddhtqatf@outlook.com</a></li>
               <li>Działamy na terenie całej Polski</li>
             </ul>
           </div>
         </div>
         
         <div className="border-t border-white/10 mt-8 pt-6 text-center md:flex md:justify-between md:items-center">
-          <p className="text-white/70">© {currentYear} PAWBUD. Wszelkie prawa zastrzeżone.</p>
+          <p className="text-white/70">© {currentYear} ELEKTROGO. Wszelkie prawa zastrzeżone.</p>
         </div>
       </div>
     </footer>

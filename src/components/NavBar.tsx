@@ -8,7 +8,7 @@ const NavBar: React.FC = () => {
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center space-x-3">
           <Building className="text-pawbud-yellow h-8 w-8" />
-          <span className="font-bold text-white text-2xl">PAWBUD</span>
+          <span className="font-bold text-white text-2xl">ELEKTROGO</span>
         </div>
         
         <div className="hidden md:flex space-x-6 text-white">

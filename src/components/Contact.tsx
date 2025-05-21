@@ -19,7 +19,7 @@ const Contact: React.FC = () => {
             <CardContent className="p-8">
               <div className="flex flex-col items-center mb-8">
                 <Building2 className="h-16 w-16 text-pawbud-yellow mb-4" />
-                <h3 className="text-2xl font-bold text-pawbud-blue">PAWBUD</h3>
+                <h3 className="text-2xl font-bold text-pawbud-blue">ELEKTROGO</h3>
                 <p className="text-gray-600">Profesjonalne usługi budowlane</p>
               </div>
               
@@ -27,10 +27,10 @@ const Contact: React.FC = () => {
                 <div>
                   <h4 className="font-semibold text-lg mb-2 text-pawbud-blue">Dane kontaktowe</h4>
                   <p className="text-gray-700">
-                    <strong>Właściciel:</strong> Paweł Kiedrowski
+                    <strong>Właściciel:</strong> SEBASTIAN ZIELIŃSKI
                   </p>
                   <p className="text-gray-700">
-                    <strong>Email:</strong> <a href="mailto:trevorkaur@op.pl" className="text-pawbud-blue hover:underline">trevorkaur@op.pl</a>
+                    <strong>Email:</strong> <a href="mailto:mbjpabwjddhtqatf@outlook.com" className="text-pawbud-blue hover:underline">mbjpabwjddhtqatf@outlook.com</a>
                   </p>
                 </div>
                 
@@ -52,7 +52,7 @@ const Contact: React.FC = () => {
               
               <div className="text-center mt-8">
                 <a 
-                  href="mailto:trevorkaur@op.pl" 
+                  href="mailto:mbjpabwjddhtqatf@outlook.com" 
                   className="inline-block bg-pawbud-yellow text-pawbud-darkBlue px-6 py-3 rounded-lg font-medium hover:bg-pawbud-lightYellow transition duration-300"
                 >
                   Napisz do nas
