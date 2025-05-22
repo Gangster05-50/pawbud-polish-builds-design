@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Building } from 'lucide-react';
+import { Building, Phone } from 'lucide-react';
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -33,6 +33,10 @@ const Footer: React.FC = () => {
             <h3 className="text-xl font-semibold mb-4 text-pawbud-yellow">Kontakt</h3>
             <ul className="space-y-2 text-white/80">
               <li>SEBASTIAN ZIELIŃSKI</li>
+              <li className="flex items-center">
+                <Phone className="h-4 w-4 mr-2" />
+                <a href="tel:+48883956772" className="hover:text-pawbud-yellow transition duration-300">+48 883 956 772</a>
+              </li>
               <li>Email: <a href="mailto:mbjpabwjddhtqatf@outlook.com" className="hover:text-pawbud-yellow transition duration-300">mbjpabwjddhtqatf@outlook.com</a></li>
               <li>Działamy na terenie całej Polski</li>
             </ul>

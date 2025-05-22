@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Card, CardContent } from "@/components/ui/card";
-import { Building2 } from 'lucide-react';
+import { Building2, Phone } from 'lucide-react';
 
 const Contact: React.FC = () => {
   return (
@@ -28,6 +28,11 @@ const Contact: React.FC = () => {
                   <h4 className="font-semibold text-lg mb-2 text-pawbud-blue">Dane kontaktowe</h4>
                   <p className="text-gray-700">
                     <strong>Właściciel:</strong> SEBASTIAN ZIELIŃSKI
+                  </p>
+                  <p className="text-gray-700">
+                    <strong>Telefon:</strong> <a href="tel:+48883956772" className="text-pawbud-blue hover:underline flex items-center">
+                      <Phone className="h-4 w-4 mr-1 inline" />+48 883 956 772
+                    </a>
                   </p>
                   <p className="text-gray-700">
                     <strong>Email:</strong> <a href="mailto:mbjpabwjddhtqatf@outlook.com" className="text-pawbud-blue hover:underline">mbjpabwjddhtqatf@outlook.com</a>
